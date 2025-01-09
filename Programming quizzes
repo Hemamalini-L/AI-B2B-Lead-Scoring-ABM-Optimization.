@@ -1,1 +1,6 @@
-
+cd path/to/your/repo
+mkdir -p "Programming Quizzes/Topic1"
+mkdir -p "Programming Quizzes/Topic2"
+mkdir -p "Programming Quizzes/Topic3"
+...
+mkdir -p "Programming Quizzes/Topic10"
