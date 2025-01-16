@@ -1,1 +1,78 @@
+1
+Customer Segmentation for Marketing Strategy
+
+Given a dataset containing customer demographics and purchase history, how can we group customers based on their similarities to tailor marketing strategies?
+
+Unsupervised Learning
+
+Supervised Learning
+
+Correct ans :a
+
+2
+Anomaly Detection in Network Traffic
+
+How can we identify unusual patterns or anomalies in network traffic that may indicate a security breach, without having prior labeled examples of such incidents?
+
+Supervised Learning
+
+Unsupervised Learning
+
+Both options are possible
+
+Correct ans: b
+
+3
+Predicting Housing Prices based on Features
+
+Given historical data on housing prices and features such as location, size, and amenities, can we build a model to predict the prices of new houses?
+
+Unsupervised Learning
+
+Supervised Learning
+
+Both options are possible
+
+Correct ans: b
+
+4
+Predicting Customer Satisfaction for an E-commerce Website
+
+Given customer feedback data on an e-commerce website where customers can rate their satisfaction on a scale from 1 to 5, should we model this problem as a classification or a regression task?
+
+Both options are possible
+
+Classification problem
+
+Regression problem
+
+Correct ans : a
+
+5
+You are a healthcare researcher aiming to identify potential subgroups of patients based on their medical records to personalize treatment plans. How could unsupervised learning be utilized to uncover distinct patient clusters with similar medical profiles, allowing for more targeted and effective healthcare interventions?
+
+
+Unsupervised learning is not applicable in this scenario, and supervised learning should be used instead.
+
+Unsupervised learning can classify patients into predefined categories based on their medical records.
+
+Unsupervised learning can segment patients into clusters based on their medical records, revealing distinct subgroups without using any predefined labels.
+
+Unsupervised learning can only be used if the dataset contains labeled patient groups.
+
+Correct ans : c
+
+6
+You are an e-commerce manager and want to predict whether customers are likely to make a purchase during their website visit. How can supervised learning be applied to develop a predictive model that helps classify customers into 'potential buyers' and 'non-buyers' based on historical data and labeled purchase information?
+
+
+Supervised learning is not suitable for this scenario, and unsupervised learning should be used instead.
+
+Supervised learning requires an unsupervised learning pre-processing step to classify customers effectively.
+
+Supervised learning can be employed to classify customers into groups based on their purchase history and other features, allowing for targeted marketing strategies.
+
+Supervised learning can only be used if the purchase data is anonymized and doesn't contain labels.
+
+Correct ans: c
 
