@@ -1,0 +1,27 @@
+   UNDERSTANDING TARGET AND FEATURES FOR REGRESSION 
+
+
+Which of the following scenarios represents a suitable regression target variable?
+
+Predicting the type of flower species based on petal length and width.
+
+Classifying whether an email is spam or not.
+
+Identifying whether a patient has a certain medical condition.
+
+Estimating the time it takes to complete a marathon race.
+
+Correct ans : d
+
+2
+In which of the following situations is regression the most appropriate technique?
+
+Predicting whether a customer will buy a product.
+
+Categorizing images of animals into different species.
+
+Forecasting the price of a house based on its features.
+
+Determining the sentiment (positive/negative) of a movie review.
+
+Correct ans : c
