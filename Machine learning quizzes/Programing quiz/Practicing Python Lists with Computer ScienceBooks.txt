@@ -1,0 +1,102 @@
+Activities:
+
+1. Find Unique Elements in a List
+A: def unique_list_elements(input_list):
+    unique_items = []
+    for item in input_list:
+        if item not in unique_items:
+            unique_items.append(item)
+    return unique_items
+2. Find Common Elements in Two Lists
+A: def get_common(input_list_1, input_list_2):
+    common_items = []
+    for item in input_list_1:
+        if item in input_list_2:
+            common_items.append(item)
+    return common_items
+3. Calculate Average of Numbers 
+A: def get_average(input_list):
+    total_items = len(input_list)
+    sum_total = sum(input_list)
+    average = sum_total/total_items
+    return average
+4. Sort Strings Alphabetically
+A: def sort_alphabets(input_list):
+    new_list = sorted(input_list)
+    return new_list
+5.  Square Numbers in a List
+A: def square_list(input_list):
+    new_list = []
+    for item in input_list:
+        squared = item*item
+        new_list.append(squared)
+    return new_list
+6. Map String Lengths
+A: def count_len(input_list):
+    new_list = []
+    for item in input_list:
+        len_string = len(item)
+        new_list.append(len_string)
+    return new_list
+
+
+Dataset Activities:
+
+7. Count unique books in the computer_science_books list.
+A: unique_books = []
+      for book in computer_science_books:
+          if book not in unique_books:
+              unique_books.append(book)
+   len(unique_books)
+8. Verify the Presence of a Specific Book
+A: 'Algorithms to Live By  The Computer Science of Human Decisions by Brian Christian' in computer_science_books 
+    computer_science_books.append('Algorithms to Live By  The Computer Science of Human Decisions by Brian Christian')
+9. Replace an item from the list with another item
+A: for i in range(len(computer_science_books)):
+    if computer_science_books[i] == "Pattern Recognition and Machine Learning by Christopher M. Bishop":
+        computer_science_books[i] = "Pattern Recognition and Machine Learning 2006 2nd Edition by Christopher M. Bishop"
+10. Find if there are duplicates
+A:  count_python_ml = 0
+    for book in computer_science_books:
+       if book == "Python Machine Learning by Sebastian Raschka and Vahid Mirjalili":
+           count_python_ml += 1
+
+    count_python_ml
+11. Remove all the duplicate books in the dataset.
+A: unique_books = []
+   for book in computer_science_books:
+      if book not in unique_books:
+          unique_books.append(book)
+
+  print(unique_books)
+12. Sort the books in alphabetical order
+A: computer_science_books.sort()
+   computer_science_books
+13. Create a new list less_than_60 which will have books of less than 60 characters long.
+A: less_than_60 = []
+   for book in computer_science_books:
+     if len(book) < 60:
+         less_than_60.append(book)
+   less_than_60
+14. Which book has the shortest name and which book has the longest name.
+A:  shortest_book = computer_science_books[0]
+    longest_book = computer_science_books[0]
+    for book in computer_science_books:
+        if len(book) < len(shortest_book):
+            shortest_book = book
+
+        if len(book) > len(longest_book):
+            longest_book = book
+
+    print(f"Len of Longest Book : {longest_book} is : {len(longest_book)}\nLength of Shortest Book : {shortest_book} is : {len(shortest_book)}")
+15. How many characters are there in the shortest name
+A: shortest = 0
+   shortest_book = computer_science_books[0]
+
+   for book in computer_science_books:
+      if len(book) < len(shortest_book):
+        shortest_book = book
+        shortest = len(shortest_book)
+
+   print(f'Length of Shortest Book : {shortest_book} is : {shortest}')
+
