@@ -1,0 +1,23 @@
+   INDUSTRY APPLICATIONS
+
+
+1
+True/False: The primary goal of the case study is to understand the practical aspects of applying machine learning techniques to predict and mitigate customer churn.
+
+
+False
+
+True
+
+Correct ans : false
+
+2
+True/False: The dataset for this case study includes customer demographics, usage patterns, contract details, and customer service interactions.
+
+
+False
+
+
+True
+
+Correct ans : true
