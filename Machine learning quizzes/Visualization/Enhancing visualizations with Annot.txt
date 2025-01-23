@@ -1,0 +1,32 @@
+Enhancing visualizations with Annotations and Legends
+
+1
+Annotate the Highest Number of Births
+
+For this activity finds and annotates the month with the highest and lowest number of births in the dataset. Create a plot that shows the total number of births by month, highlighting the peak and trough points with annotations.
+
+For better guidance, it is recommended to use the provided template as a reference.
+
+Expected outcome:
+
+Your plot should look like the image below:
+
+
+
+Correct!
+
+
+2
+Highlighting a Specific Year: This activity focuses on annotating a specific year in the dataset to highlight any notable trends or changes.
+
+Create a plot that compares the total number of male and female births over the years included in the dataset. Use annotations to mark any 1970 where notable differences or interesting trends are observed.
+
+For better guidance, it is recommended to use the provided template as a reference.
+
+Expected outcome:
+
+Your plot should look like the image below:
+
+
+
+Correct!
