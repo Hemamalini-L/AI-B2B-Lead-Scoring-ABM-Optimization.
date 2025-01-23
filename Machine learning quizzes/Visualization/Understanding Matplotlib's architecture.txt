@@ -1,0 +1,29 @@
+
+Understanding Matplotlib's architecture
+
+Understanding Figures and Axes in Matplotlib
+
+In Matplotlib, what is the difference between a Figure and an Axes?
+
+
+A Figure refers to the axes and labels of a plot, whereas an Axes refers to the graph itself.
+
+
+A Figure is the entire plotting area or canvas, while an Axes is an individual plot within the Figure.
+
+
+A Figure is a type of plot, and an Axes is the canvas where all plots are drawn.
+
+
+A Figure and an Axes are the same thing in Matplotlib terminology.
+
+Correct ANS: B
+
+
+
+
+
+
+
+
+
