@@ -1,1 +1,23 @@
 
+1
+What is the main advantage of using plt.show() when displaying Matplotlib plots?
+
+It is ideal for batch processing scripts.
+
+It avoids the need for additional customization.
+
+It allows for interactivity and real-time updates.
+
+It generates static image files for reports.
+
+Correct ans :  c
+
+2
+When might you choose No show() and use plt.savefig() to display Matplotlib plots?
+
+When working in an interactive environment like Jupyter Notebook.
+When you want to avoid creating any plots.
+When you want to explore data and make real-time adjustments.
+When you need to generate static images for reports or presentations.
+
+Correct ans: d
