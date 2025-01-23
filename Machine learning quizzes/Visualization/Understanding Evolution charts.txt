@@ -1,0 +1,37 @@
+ Understanding Evolution charts
+
+1
+What does a time series plot typically represent in data analysis?
+
+
+The change in a single variable over a period of time.
+
+
+The distribution of a single variable at a specific point in time.
+
+
+The comparison between different categorical groups over a period of time.
+
+
+The correlation between two variables at different points in time.
+
+Correct ans : A
+
+2
+True or False: This plot created using the temperature dataset is an example of an evolution chart.
+
+# Plotting temperature against itself to create a meaningless plot
+fig, ax = plt.subplots(figsize=(12, 6))
+ax.plot(temperature_data['Temp'], temperature_data['Temp'], color='purple', label='Incorrect Plot')
+ax.set_title('Incorrect Time Series Plot')
+ax.set_xlabel('Temperature')
+ax.set_ylabel('Temperature')
+ax.legend()
+plt.show()
+
+Yes
+
+
+No
+
+Correct ans : NO
